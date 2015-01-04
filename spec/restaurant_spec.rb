@@ -1,5 +1,5 @@
 require 'restaurant'
 
-describe Restaurant do |x|
+describe Restaurant do
   
 end
