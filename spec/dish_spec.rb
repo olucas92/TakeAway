@@ -1,11 +1,15 @@
 require 'dish'
+require 'menu'
 
 describe Dish do
 
-  it 'should be able to return the price of a dish' do
-  end
+  # let (:margherita) { Dish.new }
 
-  it 'should be able to return dish name' do
-  end
+  # it 'should be able to return the price of a dish' do
+  #   expect
+  # end
+
+  # it 'should be able to return dish name' do
+  # end
 
 end

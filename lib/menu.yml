@@ -1,0 +1,18 @@
+
+
+
+!ruby/object:Dish
+name: margherita
+price: 10
+
+!ruby/object:Dish
+name: pepperoni
+price: 12
+
+!ruby/object:Dish
+name: chicken
+price: 12
+
+!ruby/object:Dish
+name: meat_feast
+price: 15
