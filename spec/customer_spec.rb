@@ -5,6 +5,7 @@ require 'customer'
 
 
 describe Customer do
+
   let(:customer) { Customer.new}
 
   it 'should have no items in cart after initialize' do
@@ -12,6 +13,9 @@ describe Customer do
   end
 
   it 'should be able to add an item to the cart' do
+    expect(customer.items.count).to eq(0)
+    customer.select!
+    expect(customer.items.count).to eq(1)
   end
 
   # it 'should be able to make an order' do

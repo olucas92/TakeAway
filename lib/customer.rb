@@ -6,6 +6,9 @@ class Customer
 
   def items
     @items
+  end
+
+  def select!
   end 
 
 

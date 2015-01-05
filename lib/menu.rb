@@ -1,4 +1,4 @@
-require 'yaml'
+# require 'yaml'
 
 class Menu
 
