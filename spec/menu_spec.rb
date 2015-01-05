@@ -6,6 +6,6 @@ describe Menu do
   end
 
   it 'should be able to reject an order if not on the menu' do
-    endx
+  end
 
 end
