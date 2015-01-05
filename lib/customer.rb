@@ -1,15 +1,24 @@
 class Customer
 
   def initialize
-    @items = []
+    @cart = []
   end
 
-  def items
-    @items
+  def item
+    @item
   end
 
-  def select!
+  def select(item)
+    cart << (item)
   end 
+
+  def cart
+    @cart
+  end
+
+  def cart_count
+    @cart.count
+  end
 
 
 end
